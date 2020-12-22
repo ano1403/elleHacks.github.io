@@ -181,10 +181,24 @@ html, body {
   font-weight: 700;
   text-align: right;
 }
+.color-title-background2 {
+  position: static;
+  font-family: BenchNine;
+  color: rgba(126, 201, 207, .15);
+  font-size: 275px;
+  line-height: 265px;
+  font-weight: 700;
+  text-align: left;
+}
 
 .color-title-background._1 {
   margin-top: -136px;
   margin-right: -214px;
+  font-family: BenchNine;
+}
+.color-title-background2._2 {
+  margin-top: -136px;
+  margin-left: 0px;
   font-family: BenchNine;
 }
 
@@ -199,10 +213,13 @@ html, body {
   line-height: 58px;
   text-transform: uppercase;
 }
-
 .columns {
   margin-top: -122px;
   margin-bottom: 96px;
+}
+.columns0 {
+  margin-top: -122px;
+  margin-bottom: 10px;
 }
 
 .column-right {
@@ -350,16 +367,19 @@ html, body {
 
 .role-hacker-image {
   position: relative;
+  border-radius: 30px;
   width: 320px;
 }
 
 .role-volunteer-image {
   position: relative;
+  border-radius: 30px;
   width: 320;
 }
 
 .role-mentor-image {
   position: relative;
+  border-radius: 30px;
   width: 320px;
 }
 
@@ -977,10 +997,24 @@ html, body {
     font-weight: 700;
     text-align: left;
   }
+  .color-title-background2 {
+    position: static;
+    font-family: BenchNine;
+    color: rgba(221, 229, 238, .15);
+    font-size: 180px;
+    line-height: 265px;
+    font-weight: 700;
+    text-align: right;
+  }
   
   .color-title-background._1 {
     margin-top: -136px;
     margin-right: -214px;
+    font-family: BenchNine;
+  }
+  .color-title-background2._2 {
+    margin-top: -136px;
+    margin-left: 0px;
     font-family: BenchNine;
   }
 }
@@ -1092,6 +1126,9 @@ html, body {
   .title-middle-decor {
     width: 150px;
   }
+  img.rounded-corners {
+  border-radius: 30px;
+}
   .title-middle-decor.sponsor {
     top: -127px;
   }

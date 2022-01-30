@@ -293,7 +293,7 @@ html, body {
 }
 
 .paragraph {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Delius', sans-serif;
   color: #7d7d7d;
   font-size: 16px;
   line-height: 27px;
@@ -331,7 +331,7 @@ html, body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -341,10 +341,91 @@ html, body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: BenchNine;
+  font-family: Margarine;
   font-size: 35px;
   font-weight: 600;
 }
+
+/* Xuan start*/
+
+.joinus-title{
+  color: #49AB8B;
+  font-family: 'Margarine';
+  font-size: 30px;
+  line-height: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.role-hacker-title {
+  color: #C8686D;
+  font-family: 'Margarine';
+  font-size: 24px;
+  margin: 0; 
+}
+.role-hacker {
+  color: #000000;
+  font-family: 'Delius';
+  font-size: 16px;
+  line-height: 1.4;
+  width:80%;
+  margin-left: 10px;
+}
+.role-volunteer-title{
+  color:#FBC788;
+  font-family: 'Margarine';
+  font-size: 24px;
+  margin: 0; 
+}
+.role-volunteer{
+  color:#000000;
+  font-family: 'Delius';
+  font-size: 16px;
+  line-height: 1.4;
+  width:80%;
+  margin-left: 20px;
+}
+.role-mentor-title{
+  color:#4281A4E5;
+  font-family: 'Margarine';
+  font-size: 24px;
+  margin: 0; 
+}
+.role-mentor{
+  color: #000000;
+  font-family: 'Delius';
+  font-size: 16px;
+  line-height: 1.4;
+  width:100%;
+  margin-left: 10px;
+}
+
+.role-container{
+  position: relative;
+}
+
+.role-svg,.role-texts{
+  position:absolute;
+  top:0; 
+  left: 0;
+}
+.joinus-border{
+  background: rgba(66, 129, 164, 0.38) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.joinus-content{
+  background: white ; 
+  border-radius: 27px ;
+  width: 95vw; 
+  height: 90vh;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+
+/* Xuan end */
 
 .role-column {
   display: -webkit-box;
@@ -364,24 +445,28 @@ html, body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  
 }
 
 .role-hacker-image {
   position: relative;
-  border-radius: 30px;
-  width: 320px;
+  /* border-radius: 30px; */
+  width: 250px;
+  border: 1px solid rgba(200, 104, 109, 0.9);
 }
 
 .role-volunteer-image {
   position: relative;
-  border-radius: 30px;
-  width: 320;
+  /* border-radius: 30px; */
+  width: 250px;
+  border: 1px solid #FBC788;
 }
 
 .role-mentor-image {
   position: relative;
-  border-radius: 30px;
-  width: 320px;
+  /* border-radius: 30px; */
+  width: 250px;
+  border: 1px solid rgba(66, 129, 164, 0.9);
 }
 
 .columns-4 {
@@ -389,9 +474,12 @@ html, body {
 }
 
 .role-texts {
+  padding-top: 10px;
   padding-right: 15px;
   padding-left: 15px;
   text-align: center;
+  position: absolute;
+
 }
 
 .link-block {

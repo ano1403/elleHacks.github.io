@@ -496,8 +496,36 @@ html, body {
 }
 
 .sponsor-section {
-  margin-bottom: 150px;
   clear: left;
+  background-color: #edc78d;
+  border: medium solid #edc78d;
+
+}
+
+.sponsor-section .container.w-container {
+    margin: 20px auto 20px;
+    width: 100%;
+    clear: left;
+    background-color: #E6E6E6;
+    border: medium solid #E6E6E6;
+    border-radius: 15px;
+}
+
+.sponsor-section-title .h3 {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.sponsor-gold .h4,
+.sponsor-silver .h4,
+.sponsor-bronze .h4 {
+  text-align: center;
+  margin: 5%;
+}
+
+.sponsor-image {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .faq-section {

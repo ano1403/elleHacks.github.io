@@ -23,7 +23,19 @@ html, body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: white;
+  border-radius: 5px;
 }
+
+.home_page_border{
+  background-color: #E6E6E6;
+
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
 
 .hero-background {
   position: absolute;
@@ -122,7 +134,9 @@ html, body {
 .body {
   overflow: visible;
   height: 100%;
+
 }
+
 
 .text-block-6 {
   color: #000;
@@ -684,6 +698,7 @@ html, body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: white;
 }
 
 .div-block-9 {
@@ -715,6 +730,7 @@ html, body {
   display: block;
   overflow: visible;
   opacity: 0;
+  float: left;
 }
 
 .link-block-2 {

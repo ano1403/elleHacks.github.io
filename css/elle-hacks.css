@@ -631,7 +631,6 @@ html, body {
 }
 
 .sponsor-gold .h4 {
-  /* position: absolute; */
   width: 60px;
   height: 40px;
   left: 609px;
@@ -648,7 +647,6 @@ html, body {
 }
 
 .sponsor-silver .h4 {
-  /* position: absolute; */
   width: 60px;
   height: 40px;
   left: 609px;
@@ -665,7 +663,6 @@ html, body {
 }
 
 .sponsor-bronze .h4 {
-  /* position: absolute; */
   width: 60px;
   height: 40px;
   left: 609px;

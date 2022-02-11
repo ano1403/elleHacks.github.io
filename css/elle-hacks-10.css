@@ -129,6 +129,26 @@ html, body {
   line-height: 30px;
 }
 
+.text-block-20 {
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.text-block-40 {
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.text-block-60 {
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .div-block {
   position: relative;
   left: 256px;
@@ -668,8 +688,18 @@ html, body {
   opacity: 0;
 }
 
+.ellehacks_logo{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  overflow: visible;
+  opacity: 0;
+}
+
 .link-block-2 {
   position: relative;
+  float: left;
 }
 
 .brand-link {

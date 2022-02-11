@@ -350,7 +350,7 @@ html, body {
 
 .bubble-decor{
   position: absolute;
-  top: 310vh;
+  top: 260vh;
   right:0px;
 }
 
@@ -469,19 +469,19 @@ html, body {
 
 .bubble-2-decor{
   position: absolute;
-  top: 600vh;
+  top: 550vh;
   right: 16px;
 }
 
 .half-cirlce-decor{
   position: absolute;
-  top: 585vh;
+  top: 535vh;
   left: 24px;
 }
 
 .spiral-decor{
   position: absolute;
-  top: 553vh;
+  top: 500vh;
   right: 10%;
 }
 /* Xuan end */

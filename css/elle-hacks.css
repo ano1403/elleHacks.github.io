@@ -426,6 +426,64 @@ html, body {
   
 }
 
+/* speaker-section (contact us) */
+.contact-border{
+  background: rgba(66, 129, 164, 0.38) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+
+}
+.contact-content{
+  background: white ; 
+  border-radius: 27px ;
+  width: 90%; 
+  height: 80%;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+
+.contact-title{
+  color: #49AB8B;
+  font-family: 'Margarine';
+  font-size: 30px;
+  line-height: 40px;
+  padding-right: 24px;
+  padding-top: 32px;
+
+}
+.contact-description{
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Margarine';
+  font-size: 25px; 
+  margin-bottom: 24px;
+}
+
+.contact-description > a {
+  color: rgba(66, 129, 164) ;
+  font-family: 'Margarine';
+  font-size: 25px; 
+}
+
+.bubble-2-decor{
+  position: absolute;
+  top: 605vh;
+  right: 16px;
+}
+
+.half-cirlce-decor{
+  position: absolute;
+  top: 590vh;
+  left: 24px;
+}
+
+.spiral-decor{
+  position: absolute;
+  top: 560vh;
+  right: 10%;
+}
 /* Xuan end */
 
 .role-column {

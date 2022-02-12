@@ -623,19 +623,14 @@ html, body {
   line-height: 40px;
 }
 
-.sponsor-gold .h4,
-.sponsor-silver .h4,
-.sponsor-bronze .h4 {
-  text-align: center;
-  margin: 5%;
-}
-
 .sponsor-gold .h4 {
+  margin: 0 auto;
   width: 60px;
   height: 40px;
   left: 609px;
   top: 180px;
-
+  text-align: center;
+  margin: 5%;
   font-family: Margarine;
   font-style: normal;
   font-weight: normal;
@@ -651,7 +646,8 @@ html, body {
   height: 40px;
   left: 609px;
   top: 180px;
-
+  text-align: center;
+  margin: 5%;
   font-family: Margarine;
   font-style: normal;
   font-weight: normal;
@@ -667,7 +663,8 @@ html, body {
   height: 40px;
   left: 609px;
   top: 180px;
-
+  text-align: center;
+  margin: 5%;
   font-family: Margarine;
   font-style: normal;
   font-weight: normal;

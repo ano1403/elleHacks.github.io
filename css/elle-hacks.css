@@ -533,7 +533,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .testimonial-border {
-    height: 2500px;
+    height: 350%;
   }
 
   .testimonial-containers {

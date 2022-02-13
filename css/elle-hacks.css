@@ -564,50 +564,177 @@ body {
 
 /* Testimonial Section CSS end */
 
-.role-column {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+/* Meet the team Section CSS start */
+
+.meet-team-border {
+  background: #f0e5e5;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
+  justify-content: center;
   align-items: center;
-}
-
-.role-hacker-image {
+  height: 2000px;
   position: relative;
-  /* border-radius: 30px; */
-  width: 250px;
-  border: 1px solid rgba(200, 104, 109, 0.9);
 }
 
-.role-volunteer-image {
-  position: relative;
-  /* border-radius: 30px; */
-  width: 250px;
-  border: 1px solid #fbc788;
+#meet-team-content {
+  background: white;
+  border-radius: 27px;
+  width: 95vw;
+  height: 95%;
+  z-index: auto;
 }
 
-.role-mentor-image {
-  position: relative;
-  /* border-radius: 30px; */
-  width: 250px;
-  border: 1px solid rgba(66, 129, 164, 0.9);
+.containermt {
+  display: grid;
+  grid-template-columns: 1.6fr 1.7fr 1.6fr 1.9fr;
+  grid-template-rows: 1.6fr 1.4fr 3.6fr 1.6fr 3.4fr 1.4fr 3.5fr 1.5fr 3.5fr;
+  gap: 13px 32px;
+  grid-auto-flow: row;
+  align-content: stretch;
+  justify-items: stretch;
+  grid-template-areas:
+    "meet-the-team-title meet-the-team-title meet-the-team-title meet-the-team-title"
+    "co-pres-title co-pres-title co-pres-title co-pres-title"
+    "pres-pics pres-pics pres-pics pres-pics"
+    "marketing-title marketing-title marketing-title marketing-title"
+    "marketing-pics marketing-pics marketing-pics marketing-pics"
+    "logistics-title logistics-title logistics-title logistics-title"
+    "logistics-pics logistics-pics logistics-pics logistics-pics"
+    "it-title it-title it-title it-title"
+    "it-pics it-pics it-pics it-pics";
 }
 
-.columns-4 {
-  margin-top: 25px;
+.meet-the-team-title {
+  grid-area: meet-the-team-title;
+  color: #49ab8b;
+  font-family: "Margarine";
+  font-size: 30px;
+  line-height: 40px;
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
+
+.co-pres-title {
+  grid-area: co-pres-title;
+  color: #c8686d;
+  font-family: "Margarine";
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  padding-top: 50px;
+  max-height: 100px;
+}
+
+.marketing-title {
+  grid-area: marketing-title;
+  color: #4281a4;
+  font-family: "Margarine";
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+.logistics-title {
+  grid-area: logistics-title;
+  color: #edc68d;
+  font-family: "Margarine";
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.it-title {
+  grid-area: it-title;
+  color: #c8686d;
+  font-family: "Margarine";
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.pres-pics {
+  grid-area: pres-pics;
+}
+
+.marketing-pics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.4fr 0.2fr 1.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "marketing-row-1 marketing-row-1 marketing-row-1"
+    ". . ."
+    "marketing-row-2 marketing-row-2 marketing-row-2";
+  grid-area: marketing-pics;
+}
+
+.marketing-row-1 {
+  grid-area: marketing-row-1;
+}
+
+.marketing-row-2 {
+  grid-area: marketing-row-2;
+}
+
+.logistics-pics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.7fr 0.2fr 1.1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "logistics-row-1 logistics-row-1 logistics-row-1"
+    ". . ."
+    "logistics-row-2 logistics-row-2 logistics-row-2";
+  grid-area: logistics-pics;
+}
+
+.logistics-row-1 {
+  grid-area: logistics-row-1;
+}
+
+.logistics-row-2 {
+  grid-area: logistics-row-2;
+}
+
+.it-pics {
+  grid-area: it-pics;
+}
+
+.photo-container {
+  float: left;
+  display: grid;
+  margin-left: 50px;
+  align-items: center;
+  width: 220px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.8fr 0.2fr;
+  gap: 9px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "image-area"
+    "team-name";
+}
+
+.image-area {
+  grid-area: image-area;
+  width: 220px;
+  height: 220px;
+}
+
+.team-name {
+  grid-area: team-name;
+  text-align: center;
+  font-family: Delius;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+/* end */
 
 .role-texts {
   padding-top: 30px;

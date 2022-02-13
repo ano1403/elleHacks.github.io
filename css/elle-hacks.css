@@ -567,11 +567,11 @@ body {
 /* Meet the team Section CSS start */
 
 .meet-team-border {
-  background: #f0e5e5;
+  background: #c0cecc;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2000px;
+  height: 3000px;
   position: relative;
 }
 
@@ -586,7 +586,6 @@ body {
 .containermt {
   display: grid;
   grid-template-columns: 1.6fr 1.7fr 1.6fr 1.9fr;
-  grid-template-rows: 1.6fr 1.4fr 3.6fr 1.6fr 3.4fr 1.4fr 3.5fr 1.5fr 3.5fr;
   gap: 13px 32px;
   grid-auto-flow: row;
   align-content: stretch;
@@ -634,6 +633,8 @@ body {
   font-size: 30px;
   line-height: 40px;
   text-align: center;
+  padding-top: 50px;
+  max-height: 100px;
 }
 .logistics-title {
   grid-area: logistics-title;
@@ -642,6 +643,7 @@ body {
   font-size: 30px;
   line-height: 40px;
   text-align: center;
+  padding-top: 50px;
 }
 
 .it-title {
@@ -651,6 +653,7 @@ body {
   font-size: 30px;
   line-height: 40px;
   text-align: center;
+  padding-top: 50px;
 }
 
 .pres-pics {
@@ -672,16 +675,18 @@ body {
 
 .marketing-row-1 {
   grid-area: marketing-row-1;
+  transform: translate(-50%, 0%);
+  margin-left: 50%;
 }
 
 .marketing-row-2 {
   grid-area: marketing-row-2;
+  margin-left: 11%;
 }
 
 .logistics-pics {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1.7fr 0.2fr 1.1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -693,14 +698,46 @@ body {
 
 .logistics-row-1 {
   grid-area: logistics-row-1;
+  margin-left: 11%;
 }
 
 .logistics-row-2 {
   grid-area: logistics-row-2;
+  margin-left: 1%;
+}
+
+.logistics-row-1 {
+  grid-area: logistics-row-1;
+  margin-left: 11%;
+}
+
+.logistics-row-2 {
+  grid-area: logistics-row-2;
+  margin-left: 1%;
 }
 
 .it-pics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.4fr 0.2fr 1.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "it-row-1 it-row-1 it-row-1"
+    ". . ."
+    "it-row-2 it-row-2 it-row-2";
   grid-area: it-pics;
+}
+
+.it-row-1 {
+  grid-area: it-row-1;
+  transform: translate(-50%, 0%);
+  margin-left: 50%;
+}
+
+.it-row-2 {
+  grid-area: it-row-2;
+  margin-left: 11%;
 }
 
 .photo-container {
@@ -722,6 +759,7 @@ body {
   grid-area: image-area;
   width: 220px;
   height: 220px;
+  z-index: 2;
 }
 
 .team-name {
@@ -734,7 +772,126 @@ body {
   line-height: 20px;
 }
 
-/* end */
+.decor-mt {
+  position: relative;
+}
+
+.yellow-dots-mt {
+  position: absolute;
+  top: 60%;
+  z-index: 0;
+  right: -5%;
+}
+
+.cheetah-print-design-mt {
+  position: absolute;
+  bottom: 50%;
+  z-index: 1;
+  left: -20%;
+}
+
+.leaf-mt {
+  position: absolute;
+  bottom: 1px;
+  z-index: 0;
+  right: 5%;
+}
+
+.bottom-squiggle-mt {
+  position: absolute;
+  bottom: 90%;
+  z-index: 0;
+  right: 5%;
+}
+
+.top-squiggle-mt {
+  position: absolute;
+  top: 60%;
+  z-index: 0;
+  right: 5%;
+  transform: rotate(190deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .cheetah-print-design-mt {
+    top: 80%;
+    z-index: 0;
+  }
+
+  .yellow-dots-mt {
+    top: 40% !important;
+  }
+
+  .meet-team-border {
+    height: 4800px;
+  }
+
+  .image-area {
+    grid-area: image-area;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    margin-left: 20%;
+  }
+
+  .team-name {
+    grid-area: team-name;
+    text-align: center;
+    font-family: Delius;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .marketing-pics {
+    display: block;
+    margin: 0;
+  }
+
+  .marketing-row-1 {
+    grid-area: marketing-row-1;
+    transform: none;
+    margin-left: 0;
+  }
+
+  .co-pres-title {
+    padding-top: 0;
+  }
+  .marketing-row-2 {
+    grid-area: marketing-row-2;
+    transform: none;
+    margin-left: 0;
+  }
+
+  .logistics-pics {
+    display: block;
+    margin-left: -50px;
+  }
+
+  .logistics-row-2 {
+    display: block;
+    margin-left: 50px;
+  }
+
+  .it-pics {
+    display: block;
+  }
+
+  .it-row-1 {
+    grid-area: it-row-1;
+    transform: none !important;
+    margin-left: 0 !important;
+  }
+
+  .it-row-2 {
+    grid-area: it-row-1;
+    transform: none !important;
+    margin-left: 0 !important;
+  }
+}
+
+/* meet the team end */
 
 .role-texts {
   padding-top: 30px;

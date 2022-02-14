@@ -80,11 +80,11 @@ body {
   text-transform: none;
 }
 
-.button-text {
+.btn-text {
   position: absolute;
-  font-family: BenchNine;
+  font-family: 'Margarine';
   color: #000;
-  font-size: 40px;
+  font-size: 24px;
   text-decoration: none;
 }
 
@@ -351,8 +351,8 @@ body {
 
 .bubble-decor {
   position: absolute;
-  top: 320vh;
-  right: 0px;
+  top: 260vh;
+  right:0px;
 }
 
 .swirly-decor {
@@ -426,6 +426,64 @@ body {
   padding-right: 200px;
 }
 
+/* speaker-section (contact us) */
+.contact-border{
+  background: rgba(66, 129, 164, 0.38) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+
+}
+.contact-content{
+  background: white ; 
+  border-radius: 27px ;
+  width: 90%; 
+  height: 80%;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+
+.contact-title{
+  color: #49AB8B;
+  font-family: 'Margarine';
+  font-size: 30px;
+  line-height: 40px;
+  padding-right: 24px;
+  padding-top: 32px;
+
+}
+.contact-description{
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Margarine';
+  font-size: 25px; 
+  margin-bottom: 24px;
+}
+
+.contact-description > a {
+  color: rgba(66, 129, 164) ;
+  font-family: 'Margarine';
+  font-size: 25px; 
+}
+
+.bubble-2-decor{
+  position: absolute;
+  top: 835vh;
+  right: 16px;
+}
+
+.half-cirlce-decor{
+  position: absolute;
+  top: 823vh;
+  left: 24px;
+}
+
+.spiral-decor{
+  position: absolute;
+  top: 792vh;
+  right: 10%;
+}
 /* Xuan end */
 
 /* Testimonial Section CSS start*/
@@ -621,12 +679,12 @@ body {
   text-decoration: none;
 }
 
-.button-div {
+.btn-div {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 13px;
+  margin-top: 24px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -648,7 +706,7 @@ body {
 }
 
 .button-background.cta {
-  position: relative;
+  position: absolute;
   width: 90px;
 }
 

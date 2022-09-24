@@ -4,7 +4,8 @@
 ***************************
 Updates As of 2022-09-23
 Updated by: Aarushi Sabharwal
-Test, intro for new IT team
+created 2023site.html
+Added starter code for hosting on domain.
 
 Updates As of 2020-01-21
 Updated by: Leo Tran

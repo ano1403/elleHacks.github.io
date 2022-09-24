@@ -2,6 +2,10 @@
         Update Log
     ElleHacks Website
 ***************************
+Updates As of 2022-09-23
+Updated by: Aarushi Sabharwal
+Test, intro for new IT team
+
 Updates As of 2020-01-21
 Updated by: Leo Tran
 Added in the final sponsors.
@@ -18,7 +22,7 @@ Updated by: Leo tran
 Added new logo images for sponsors.
 Changed sponors within the website.
     - Removed/Updated sponsors.
-    
+
 Updates As of 2019-12-01
 Updated by: Leo Tran
 Added google analytics onto the webpage so that we can collect data to optimize the website.
@@ -55,8 +59,7 @@ Added leaf animation within the hero-container section:
 Added button bounce animations for the social media and email buttons at footer section:
     - Attached class onto each object, more information is within the animation.css file.
 Adjusted the image section for hackers, volunteers, and mentors:
-    - Changed ratios of images 
+    - Changed ratios of images
     - Added new class(w-col-13) within components.css for new ratios
 Changed colors for background words "Inspire" and "Change":
     - Adjusted colors within elle-hacks.css and elle-hacks-10.css (unsure of the difference between each file as it was created by the previous developer).
-
